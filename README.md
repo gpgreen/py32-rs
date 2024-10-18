@@ -54,10 +54,10 @@ devices should be supported to some level.
     * On x86-64 Linux, run `make install` to download pre-built binaries at the
       current version used by py32-rs
     * Otherwise, build using `cargo` (double check versions against `scripts/tool_install.sh`):
-        * `cargo install form --version 0.10.0`
-        * `cargo install svdtools --version 0.3.0`
+        * `cargo install form --version 0.12.1`
+        * `cargo install svdtools --version 0.3.14`
         * `cargo install svd2rust --version 0.28.0`
-        * `cargo install svd2html --version 0.1.3`
+        * `cargo install svd2html --version 0.1.4`
 * Install rustfmt: `rustup component add rustfmt`
 * Unzip bundled SVD zip files: `cd svd; ./extract.sh; cd ..`
 * Generate patched SVD files: `make patch` (you probably want `-j` for all `make` invocations)
